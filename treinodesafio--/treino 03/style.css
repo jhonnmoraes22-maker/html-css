@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+body{
+    background-color: var(--cor02);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --cor01:#402227;
+    --cor02:#084040;
+    --cor03:#D9B88F;
+    --cor04:#BF681B;
+    --cor05:#BF8773;
+    --cor06:#8C4332;
+}
+strong{
+    color: var(--cor01);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor04), var(--cor06));
+    text-align: center;
+    height: 150px;
+    
+}
+header h1{
+    padding-top: 30px;
+    color: var(--cor01);
+}
+header p{
+    padding-top: 10px;
+    color: var(--cor01);
+    font-weight: bold;
+}
+nav{
+    background-color: var(--cor06);
+    padding: 7px;
+    box-shadow: 2px 4px 9px rgba(0, 0, 0, 0.308);
+}
+nav a:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: var(--cor02);
+    transition-duration: 0.7s;
+}
+nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 7px;
+    margin-left: 5px;
+}
+
+
+
+main{
+    background-color: white;
+    max-width: 800px;
+    min-width: 350px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.267);
+    border-radius: 0px 0px 10px 10px;
+}
+main h1{
+    color: var(--cor05);
+}
+main h2{
+    margin-top: 10px;
+    background-image: linear-gradient(to right, var(--cor04), transparent);
+    text-indent: 5px;
+}
+main p{
+    line-height: 25px;
+    margin: 15px 0px;
+}
+a.externo::after{
+    content: "\00a0\1F517";
+}
+main a.externo{
+    text-decoration: none;
+    color:var(--cor04);
+    font-weight: bold;
+    
+}
+div.video{
+    background-color: var(--cor01);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+aside{
+    background-color: var(--cor03);
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 10px;
+}aside h3{
+    background-color: var(--cor05);
+    margin: -15px -15px 0px -15px;
+    text-indent: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+strong#destacado{
+    color: var(--cor04);
+}
+aside li{
+    list-style-type: '\1F58C\00a0';
+}
+aside ul{
+    list-style-position: inside;
+}
+
+
+
+footer{
+    background-color: var(--cor01);
+    margin-top: 20px;
+    padding: 5px;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+
+
+
+img.Gogh{
+    max-width: 450px;
+    display: block;
+    margin: auto;
+}
+img{
+    width: 100%;
+}

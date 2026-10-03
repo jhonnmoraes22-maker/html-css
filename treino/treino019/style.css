@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+
+body{
+    background-image: linear-gradient(to right, brown, rgb(77, 44, 44));text-align: justify;
+}
+
+h1{
+    color:rgb(26, 7, 7);
+}
+
+#lapada{
+    font-family: "Chango", sans-serif;
+    text-align: center;
+    background-color: brown;
+    border-radius: 20px;
+    color: black
+}
+
+h2{
+    color: rgb(185, 153, 153)a;
+}

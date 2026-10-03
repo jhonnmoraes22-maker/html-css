@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'the lamb';
+    src: url('./fonte/long_shot/Long_Shot.ttf') format('truetype');
+    
+}
+
+:root{
+    --cor0:#F38A8A;
+    --cor1:#BF000C;
+    --cor2:#7F0008;
+    --cor3:#EDEDED;
+    --cor4:#767C7C;
+    --cor5:#404040;
+    --cor6:#0D0D0D;
+
+    --fonte-lamb: 'The lamb', arial;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+strong{
+    color: var(--cor1);
+}
+body{
+    background-color: var(--cor2);
+}
+
+
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    height: 150px;
+    text-align: center;
+}
+header h1{
+    padding-top: 28px;
+    font-family: var(--fonte-lamb);
+}
+header p{
+    font-weight: bold;
+}
+
+
+
+nav{
+    background-color: var(--cor5);
+    padding: 8px;
+    box-shadow: -1px 4px 8px rgba(0, 0, 0, 0.274);
+}
+nav a:hover{
+    transition-duration: 0.5s;
+    background-color: var(--cor3);
+    color: var(--cor1);
+    font-weight: bold;
+}
+nav a{
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+
+main{
+    background-color: white;
+    padding: 20px;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    box-shadow: 4px 5px 8px 0px rgba(0, 0, 0, 0.322);
+    border-radius: 0px 0px 10px 10px ;
+}
+main h1{
+    font-family: var(--fonte-lamb);
+}
+main h2{
+    text-indent: 5px;
+    padding-right: 0px;
+    color: white;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+}
+main p{
+    margin: 15px 0px;
+    line-height: 25px;
+}
+main a{
+    color: var(--cor1);
+    font-weight: bold;
+    text-decoration: none;
+    background-color: var(--cor0);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+main a::after{
+    content: '\00a0\1F517';
+}
+
+aside{
+    padding: 10px;
+    background-color: var(--cor0);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 3px 9px rgba(0, 0, 0, 0.356);
+}
+aside h3{
+    color: white;
+    background-color: var(--cor1);
+    margin: -10px -10px 10px -10px;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+aside li#ratau{
+    list-style-type: '\1F400';
+}
+aside ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\1F411';
+}
+
+
+footer{
+    color: var(--cor3);
+    background-color: var(--cor6);
+    text-align: center;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+
+
+
+img{
+    width: 100%;
+}
+img#Ratau{
+    height: 300px;
+    width: 300px;
+
+    display: block;
+    margin: auto;
+}

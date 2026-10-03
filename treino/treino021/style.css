@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap');
+
+body{
+    font-family: "Fontdiner Swanky", serif;
+    font-style: normal;
+    background-image: linear-gradient(to left, red, yellow);
+}
+
+.all{
+    text-align: center;
+    margin: auto;
+    background-color: orange;
+    width: 300px;
+    
+    padding: 10px 10px 10px 10px;
+
+    border-radius: 20px;
+    border: 10px solid rgb(2, 90, 2);
+
+}
+
+img{
+    border-radius: 20px;
+}
+#inline{
+    background-color: rgb(2, 90, 2);
+    color: white;
+
+    border-radius: 5px;
+    border:2px solid rgb(202, 12, 12);
+}
